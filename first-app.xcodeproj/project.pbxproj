@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EC39D5B3291E4C6700AF2B79 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = EC39D5B2291E4C6700AF2B79 /* Kingfisher */; };
+		EC39D5B9291E516500AF2B79 /* CircleTextImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC39D5B8291E516500AF2B79 /* CircleTextImageView.swift */; };
+		EC39D5BC291E55E600AF2B79 /* SampleListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC39D5BB291E55E600AF2B79 /* SampleListView.swift */; };
+		EC39D5BF291E682800AF2B79 /* ModelListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC39D5BE291E682800AF2B79 /* ModelListView.swift */; };
+		EC39D5C3291E688500AF2B79 /* TweetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC39D5C2291E688500AF2B79 /* TweetModel.swift */; };
+		EC39D5C5291E718100AF2B79 /* TweetCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC39D5C4291E718100AF2B79 /* TweetCard.swift */; };
+		EC39D5C8291E94E400AF2B79 /* NavigationUsers.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC39D5C7291E94E400AF2B79 /* NavigationUsers.swift */; };
+		EC39D5CA291E951700AF2B79 /* NavigationUserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC39D5C9291E951700AF2B79 /* NavigationUserModel.swift */; };
+		EC39D5CC291E9D8A00AF2B79 /* UserViewDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC39D5CB291E9D8A00AF2B79 /* UserViewDetail.swift */; };
+		EC39D5CF291ECAC000AF2B79 /* CustomTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC39D5CE291ECAC000AF2B79 /* CustomTabView.swift */; };
 		EC6FC9EA2914512E0089C004 /* first_appApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6FC9E92914512E0089C004 /* first_appApp.swift */; };
 		EC6FC9EC2914512E0089C004 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6FC9EB2914512E0089C004 /* ContentView.swift */; };
 		EC6FC9EE2914512F0089C004 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC6FC9ED2914512F0089C004 /* Assets.xcassets */; };
@@ -14,6 +24,18 @@
 		EC6FC9FB2914512F0089C004 /* first_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6FC9FA2914512F0089C004 /* first_appTests.swift */; };
 		EC6FCA052914512F0089C004 /* first_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6FCA042914512F0089C004 /* first_appUITests.swift */; };
 		EC6FCA072914512F0089C004 /* first_appUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6FCA062914512F0089C004 /* first_appUITestsLaunchTests.swift */; };
+		EC8F65BB29278CC30089E238 /* RandomFoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8F65BA29278CC30089E238 /* RandomFoxView.swift */; };
+		EC8F65BD29278EA30089E238 /* RandomFoxModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8F65BC29278EA30089E238 /* RandomFoxModel.swift */; };
+		EC8F65BF29278F430089E238 /* RandomFoxService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8F65BE29278F430089E238 /* RandomFoxService.swift */; };
+		EC8F65C229278FE00089E238 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = EC8F65C129278FE00089E238 /* Alamofire */; };
+		EC8F65C42927926D0089E238 /* RandomFoxViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8F65C32927926D0089E238 /* RandomFoxViewModel.swift */; };
+		EC8F65C7292794D50089E238 /* ActivityIndicatorView in Frameworks */ = {isa = PBXBuildFile; productRef = EC8F65C6292794D50089E238 /* ActivityIndicatorView */; };
+		EC8F65CE2927A06D0089E238 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8F65CD2927A06D0089E238 /* User.swift */; };
+		EC8F65D02927A1350089E238 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8F65CF2927A1350089E238 /* UserService.swift */; };
+		EC8F65D42927A3110089E238 /* Logging+AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8F65D32927A3110089E238 /* Logging+AFError.swift */; };
+		EC8F65D72927A3850089E238 /* Logging in Frameworks */ = {isa = PBXBuildFile; productRef = EC8F65D62927A3850089E238 /* Logging */; };
+		EC8F65D92927A76C0089E238 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8F65D82927A76C0089E238 /* UserViewModel.swift */; };
+		EC8F65DB2927A8670089E238 /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8F65DA2927A8670089E238 /* UserView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +56,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EC39D5B8291E516500AF2B79 /* CircleTextImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleTextImageView.swift; sourceTree = "<group>"; };
+		EC39D5BB291E55E600AF2B79 /* SampleListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleListView.swift; sourceTree = "<group>"; };
+		EC39D5BE291E682800AF2B79 /* ModelListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelListView.swift; sourceTree = "<group>"; };
+		EC39D5C2291E688500AF2B79 /* TweetModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetModel.swift; sourceTree = "<group>"; };
+		EC39D5C4291E718100AF2B79 /* TweetCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetCard.swift; sourceTree = "<group>"; };
+		EC39D5C7291E94E400AF2B79 /* NavigationUsers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationUsers.swift; sourceTree = "<group>"; };
+		EC39D5C9291E951700AF2B79 /* NavigationUserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationUserModel.swift; sourceTree = "<group>"; };
+		EC39D5CB291E9D8A00AF2B79 /* UserViewDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewDetail.swift; sourceTree = "<group>"; };
+		EC39D5CE291ECAC000AF2B79 /* CustomTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabView.swift; sourceTree = "<group>"; };
 		EC6FC9E62914512E0089C004 /* first-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "first-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC6FC9E92914512E0089C004 /* first_appApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = first_appApp.swift; sourceTree = "<group>"; };
-		EC6FC9EB2914512E0089C004 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EC6FC9EB2914512E0089C004 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; usesTabs = 0; };
 		EC6FC9ED2914512F0089C004 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC6FC9F02914512F0089C004 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EC6FC9F62914512F0089C004 /* first-appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "first-appTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +75,15 @@
 		EC6FCA002914512F0089C004 /* first-appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "first-appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC6FCA042914512F0089C004 /* first_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = first_appUITests.swift; sourceTree = "<group>"; };
 		EC6FCA062914512F0089C004 /* first_appUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = first_appUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EC8F65BA29278CC30089E238 /* RandomFoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomFoxView.swift; sourceTree = "<group>"; };
+		EC8F65BC29278EA30089E238 /* RandomFoxModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomFoxModel.swift; sourceTree = "<group>"; };
+		EC8F65BE29278F430089E238 /* RandomFoxService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomFoxService.swift; sourceTree = "<group>"; };
+		EC8F65C32927926D0089E238 /* RandomFoxViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomFoxViewModel.swift; sourceTree = "<group>"; };
+		EC8F65CD2927A06D0089E238 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		EC8F65CF2927A1350089E238 /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
+		EC8F65D32927A3110089E238 /* Logging+AFError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Logging+AFError.swift"; sourceTree = "<group>"; };
+		EC8F65D82927A76C0089E238 /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		EC8F65DA2927A8670089E238 /* UserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +91,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC39D5B3291E4C6700AF2B79 /* Kingfisher in Frameworks */,
+				EC8F65C7292794D50089E238 /* ActivityIndicatorView in Frameworks */,
+				EC8F65D72927A3850089E238 /* Logging in Frameworks */,
+				EC8F65C229278FE00089E238 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +115,64 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EC39D5B4291E510B00AF2B79 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EC8F65C82927A01F0089E238 /* ReqResViewModel */,
+				EC8F65B329278B640089E238 /* FoxViewModel */,
+				EC39D5CD291ECAAC00AF2B79 /* CustomTabView */,
+				EC39D5C6291E84B800AF2B79 /* Navigation */,
+				EC39D5BD291E680A00AF2B79 /* ModelList */,
+				EC39D5BA291E55BB00AF2B79 /* Features */,
+				EC39D5B5291E511C00AF2B79 /* Circle */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EC39D5B5291E511C00AF2B79 /* Circle */ = {
+			isa = PBXGroup;
+			children = (
+				EC39D5B8291E516500AF2B79 /* CircleTextImageView.swift */,
+			);
+			path = Circle;
+			sourceTree = "<group>";
+		};
+		EC39D5BA291E55BB00AF2B79 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				EC39D5BB291E55E600AF2B79 /* SampleListView.swift */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		EC39D5BD291E680A00AF2B79 /* ModelList */ = {
+			isa = PBXGroup;
+			children = (
+				EC39D5BE291E682800AF2B79 /* ModelListView.swift */,
+				EC39D5C2291E688500AF2B79 /* TweetModel.swift */,
+				EC39D5C4291E718100AF2B79 /* TweetCard.swift */,
+			);
+			path = ModelList;
+			sourceTree = "<group>";
+		};
+		EC39D5C6291E84B800AF2B79 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				EC39D5C7291E94E400AF2B79 /* NavigationUsers.swift */,
+				EC39D5CB291E9D8A00AF2B79 /* UserViewDetail.swift */,
+				EC39D5C9291E951700AF2B79 /* NavigationUserModel.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		EC39D5CD291ECAAC00AF2B79 /* CustomTabView */ = {
+			isa = PBXGroup;
+			children = (
+				EC39D5CE291ECAC000AF2B79 /* CustomTabView.swift */,
+			);
+			path = CustomTabView;
+			sourceTree = "<group>";
+		};
 		EC6FC9DD2914512E0089C004 = {
 			isa = PBXGroup;
 			children = (
@@ -94,6 +196,8 @@
 		EC6FC9E82914512E0089C004 /* first-app */ = {
 			isa = PBXGroup;
 			children = (
+				EC8F65D12927A2EB0089E238 /* Core */,
+				EC39D5B4291E510B00AF2B79 /* View */,
 				EC6FC9E92914512E0089C004 /* first_appApp.swift */,
 				EC6FC9EB2914512E0089C004 /* ContentView.swift */,
 				EC6FC9ED2914512F0089C004 /* Assets.xcassets */,
@@ -127,6 +231,108 @@
 			path = "first-appUITests";
 			sourceTree = "<group>";
 		};
+		EC8F65B329278B640089E238 /* FoxViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				EC8F65B729278C6D0089E238 /* Model */,
+				EC8F65B629278C610089E238 /* Service */,
+				EC8F65B529278C570089E238 /* ViewModel */,
+				EC8F65B429278C470089E238 /* View */,
+			);
+			path = FoxViewModel;
+			sourceTree = "<group>";
+		};
+		EC8F65B429278C470089E238 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EC8F65BA29278CC30089E238 /* RandomFoxView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EC8F65B529278C570089E238 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				EC8F65C32927926D0089E238 /* RandomFoxViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		EC8F65B629278C610089E238 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				EC8F65BE29278F430089E238 /* RandomFoxService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		EC8F65B729278C6D0089E238 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EC8F65BC29278EA30089E238 /* RandomFoxModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EC8F65C82927A01F0089E238 /* ReqResViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				EC8F65CC2927A0480089E238 /* Service */,
+				EC8F65CB2927A0440089E238 /* Model */,
+				EC8F65CA2927A03E0089E238 /* ViewModel */,
+				EC8F65C92927A0380089E238 /* View */,
+			);
+			path = ReqResViewModel;
+			sourceTree = "<group>";
+		};
+		EC8F65C92927A0380089E238 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EC8F65DA2927A8670089E238 /* UserView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EC8F65CA2927A03E0089E238 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				EC8F65D82927A76C0089E238 /* UserViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		EC8F65CB2927A0440089E238 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EC8F65CD2927A06D0089E238 /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EC8F65CC2927A0480089E238 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				EC8F65CF2927A1350089E238 /* UserService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		EC8F65D12927A2EB0089E238 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				EC8F65D22927A2F00089E238 /* Extensions */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		EC8F65D22927A2F00089E238 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				EC8F65D32927A3110089E238 /* Logging+AFError.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +349,12 @@
 			dependencies = (
 			);
 			name = "first-app";
+			packageProductDependencies = (
+				EC39D5B2291E4C6700AF2B79 /* Kingfisher */,
+				EC8F65C129278FE00089E238 /* Alamofire */,
+				EC8F65C6292794D50089E238 /* ActivityIndicatorView */,
+				EC8F65D62927A3850089E238 /* Logging */,
+			);
 			productName = "first-app";
 			productReference = EC6FC9E62914512E0089C004 /* first-app.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +427,12 @@
 				Base,
 			);
 			mainGroup = EC6FC9DD2914512E0089C004;
+			packageReferences = (
+				EC39D5B1291E4C6700AF2B79 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				EC8F65C029278FE00089E238 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				EC8F65C5292794D50089E238 /* XCRemoteSwiftPackageReference "ActivityIndicatorView" */,
+				EC8F65D52927A3850089E238 /* XCRemoteSwiftPackageReference "swift-log" */,
+			);
 			productRefGroup = EC6FC9E72914512E0089C004 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -257,8 +475,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC39D5CC291E9D8A00AF2B79 /* UserViewDetail.swift in Sources */,
+				EC39D5BC291E55E600AF2B79 /* SampleListView.swift in Sources */,
 				EC6FC9EC2914512E0089C004 /* ContentView.swift in Sources */,
+				EC8F65D42927A3110089E238 /* Logging+AFError.swift in Sources */,
+				EC39D5C8291E94E400AF2B79 /* NavigationUsers.swift in Sources */,
+				EC8F65CE2927A06D0089E238 /* User.swift in Sources */,
+				EC8F65BF29278F430089E238 /* RandomFoxService.swift in Sources */,
+				EC8F65DB2927A8670089E238 /* UserView.swift in Sources */,
+				EC8F65D02927A1350089E238 /* UserService.swift in Sources */,
+				EC39D5C5291E718100AF2B79 /* TweetCard.swift in Sources */,
+				EC8F65C42927926D0089E238 /* RandomFoxViewModel.swift in Sources */,
+				EC39D5B9291E516500AF2B79 /* CircleTextImageView.swift in Sources */,
+				EC39D5C3291E688500AF2B79 /* TweetModel.swift in Sources */,
+				EC8F65BB29278CC30089E238 /* RandomFoxView.swift in Sources */,
+				EC8F65D92927A76C0089E238 /* UserViewModel.swift in Sources */,
+				EC8F65BD29278EA30089E238 /* RandomFoxModel.swift in Sources */,
+				EC39D5CF291ECAC000AF2B79 /* CustomTabView.swift in Sources */,
 				EC6FC9EA2914512E0089C004 /* first_appApp.swift in Sources */,
+				EC39D5CA291E951700AF2B79 /* NavigationUserModel.swift in Sources */,
+				EC39D5BF291E682800AF2B79 /* ModelListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -577,6 +813,64 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EC39D5B1291E4C6700AF2B79 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+		EC8F65C029278FE00089E238 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		EC8F65C5292794D50089E238 /* XCRemoteSwiftPackageReference "ActivityIndicatorView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/exyte/ActivityIndicatorView.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		EC8F65D52927A3850089E238 /* XCRemoteSwiftPackageReference "swift-log" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-log.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EC39D5B2291E4C6700AF2B79 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EC39D5B1291E4C6700AF2B79 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		EC8F65C129278FE00089E238 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EC8F65C029278FE00089E238 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		EC8F65C6292794D50089E238 /* ActivityIndicatorView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EC8F65C5292794D50089E238 /* XCRemoteSwiftPackageReference "ActivityIndicatorView" */;
+			productName = ActivityIndicatorView;
+		};
+		EC8F65D62927A3850089E238 /* Logging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EC8F65D52927A3850089E238 /* XCRemoteSwiftPackageReference "swift-log" */;
+			productName = Logging;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = EC6FC9DE2914512E0089C004 /* Project object */;
 }
